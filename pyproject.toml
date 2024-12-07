@@ -18,9 +18,9 @@ license = {file = "LICENSE"}
 bar = "FabricWidgets"
 
 [tool.setuptools]
-packages = ["bar"]
+packages = ["FabricWidgets"]
 
 [tool.setuptools.package-data]
-bar = ["bar.css"]
+bar = ["FabricWidgets.StatusBar.css"]
 
 
