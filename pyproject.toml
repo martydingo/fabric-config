@@ -15,7 +15,7 @@ readme = "README.md"
 license = {file = "LICENSE"}
 
 [project.scripts]
-bar = "bar.bar:main"
+bar = "FabricWidgets"
 
 [tool.setuptools]
 packages = ["bar"]
