@@ -15,12 +15,12 @@ readme = "README.md"
 license = {file = "LICENSE"}
 
 [project.scripts]
-bar = "bar.bar:main"
+bar = "StatusBar:main"
 
 [tool.setuptools]
-packages = ["bar"]
+packages = ["StatusBar"]
 
 [tool.setuptools.package-data]
-bar = ["bar.css"]
+bar = ["StatusBar.css"]
 
 
