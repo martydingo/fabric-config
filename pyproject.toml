@@ -15,12 +15,12 @@ readme = "README.md"
 license = {file = "LICENSE"}
 
 [project.scripts]
-bar = "FabricWidgets"
+bar = "bar.bar:main"
 
 [tool.setuptools]
-packages = ["FabricWidgets"]
+packages = ["bar"]
 
 [tool.setuptools.package-data]
-bar = ["FabricWidgets.StatusBar.css"]
+bar = ["bar.css"]
 
 
